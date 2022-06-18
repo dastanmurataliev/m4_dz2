@@ -13,7 +13,7 @@ function App() {
       <div className="container">
       App js
       <UsersPage/>
-      <AboutUs text="There You can show information about our company" product={product} / >
+      <AboutUs text="There You can show information about our company" product={product}/>
     </div>
   );
 }
