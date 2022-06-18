@@ -1,11 +1,9 @@
 import React from 'react';
-import Headers from '../../components/headers/headers';
-
+import classes from './mainPage.module.css'
 export const MainPage = (props) => {
   return (
     <div>
-      Main Page
-      <Headers/>
+      <h1 className={classes.page}>MAIN PAGE</h1>
     </div>
   );
 }

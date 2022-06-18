@@ -1,13 +1,12 @@
 import React from 'react';
-
+import classes from "./headers.module.css"
 function Headers() {
   return (
     <div>
-      Headers
       <ul>
-        <li>contact</li>
-        <li>num</li>
-        <li>login</li>
+        <li className={classes.names}>NAME</li>
+        <li className={classes.names}>NUMBER</li>
+        <li className={classes.names}>LOGIN</li>
       </ul>
     </div>
   );

@@ -1,27 +1,26 @@
 import React from "react";
-
+import  classes from "./usersList.module.css"
 function UsersList (props) {
   
   return(
     <div>
     <ul>
       {
-        props.usersProps.map((user) => {
+        props.usersProps.map((user, key) => {
           return(
             <li>{user}</li>
           )
         })
-      }
+      } 
     </ul>
     ----------------
     <ul>
-      <li>name: {props.user.name}</li>
-      <li>age: {props.user.age}</li>
-      <li>position: {props.user.position}</li>
+      <li className={classes.names}>name: {props.user.name}</li>
+      <li className={classes.names}>age: {props.user.age}</li>
+      <li className={classes.names}>position: {props.user.position}</li>
     </ul>
     </div>
     
-
   )
 }
 

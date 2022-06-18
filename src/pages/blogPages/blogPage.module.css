@@ -1,0 +1,15 @@
+.text{
+  font-size: 20px;
+  color: red;
+  font-family: sans-serif;
+}
+.green{
+  font-size: 20px;
+  color: green;
+  font-family: serif;
+}
+.blog{
+  color: blueviolet;
+  font-family: cursive;
+  font-size: 16px;
+}

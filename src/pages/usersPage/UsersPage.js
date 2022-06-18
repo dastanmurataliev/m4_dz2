@@ -1,8 +1,9 @@
 import React from "react";
 import UsersList from "../../components/usersList/UsersList";
 function UsersPage () {
-  const users = ["Dastan", "   Emir", "   Elina"]
   
+  const users = []
+
   const user = {
     name: "Dastan",
     age: "21",
@@ -12,7 +13,6 @@ function UsersPage () {
     <div>
       <h1>Список пользователей</h1>
       <UsersList usersProps={users} user={user}/>
-      
     </div>
   )
 }

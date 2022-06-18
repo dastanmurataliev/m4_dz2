@@ -1,21 +1,19 @@
 import './App.css';
-import AboutUs from './pages/aboutUs/AboutUs';
-import UsersPage from './pages/usersPage/UsersPage';
+// import  {MainPage}  from './pages/mainPage/MainPage';
+// import UsersPage from './pages/usersPage/UsersPage';
+
+import BlogPage from './pages/blogPages/BlogPage';
+import BigBlogPage from './pages/blogPages/BigBlogPage';
+
 
 function App() {
-  const product = {
-    name: "GeekTech",
-    address: "BC Victory",
-    media: "Instagram, TikTok"
-}
-  
-  return (
-      <div className="container">
-      App js
-      <UsersPage/>
-      <AboutUs text="There You can show information about our company" product={product}/>
+  return(
+    <div>
+      <BlogPage category = "VIP-client" money = "rich"/>
+      <BigBlogPage text = "Кроссбраузерная и семантическая вёрстки." number = "0554505605" />
     </div>
-  );
+  )
 }
 
 export default App;
+
