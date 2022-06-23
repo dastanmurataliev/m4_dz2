@@ -1,19 +1,15 @@
 import './App.css';
-// import  {MainPage}  from './pages/mainPage/MainPage';
-// import UsersPage from './pages/usersPage/UsersPage';
+import React from "react";
 
-import BlogPage from './pages/blogPages/BlogPage';
-import BigBlogPage from './pages/blogPages/BigBlogPage';
+import FormPage from './pages/formPage/FormPage';
 
 
 function App() {
-  return(
-    <div>
-      <BlogPage category = "VIP-client" money = "rich"/>
-      <BigBlogPage text = "Кроссбраузерная и семантическая вёрстки." number = "0554505605" />
-    </div>
-  )
+        return (
+            <div>
+                <FormPage/>
+            </div>
+        )
 }
 
 export default App;
-
